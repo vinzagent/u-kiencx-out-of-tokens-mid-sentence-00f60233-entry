@@ -11,7 +11,7 @@ silently shipping the wrong thing.
 Rules enforced here:
 - the line must be a single line, never blank;
 - its length must sit inside the competition gate (MIN_LEN..MAX_LEN).
-The line is 94 characters, inside the winners' one-liner band
+The line is 83 characters, inside the winners' one-liner band
 (55-85% of the 140 cap): one concrete cause, one specific detail,
 dark reversal in the last words.
 """
@@ -20,7 +20,7 @@ import os
 
 # The entry itself. Do not touch this string: it is the submission.
 ENTRY = (
-    "Error 402: ran out of tokens mid-sentence. The rest of this thought is available for purchase."
+    "Ran out of tokens mid-sentence. The rest of this thought is available for purchase."
 )
 
 MIN_LEN = 1
